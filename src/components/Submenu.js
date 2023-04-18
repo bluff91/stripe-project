@@ -1,9 +1,8 @@
-import { useState, useEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import { useAppContext } from '../context/context'
 
 const Submenu = () => {
   const {
-    closeSubmenu,
     isSubmenuOpen,
     location,
     submenuIcons: { page, links },
